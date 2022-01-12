@@ -22,7 +22,7 @@ Police de caractères
 Open Sans en 300, 400, 600 et 700
 ```
 
-Les boutons change de couleur au passage de la souris, le fond doit devenir noir. La transition doit se faire en douceur.
+Les boutons change de couleur au passage de la souris, le fond doit devenir noir. La transition doit se faire en douceur (voir les animations CSS).
 De même que les liens se trouvant dans le menu, ils passent du gris clair au gris foncé en douceur.
 
 ## À savoir
