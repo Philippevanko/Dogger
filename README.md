@@ -36,5 +36,3 @@ Vous devez être le plus fidèle possible à la maquette fournis.
 ## Preview
 
 ![Template à intégrer](preview.png)
-# Dogger
-# Dogger
