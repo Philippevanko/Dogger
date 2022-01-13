@@ -139,17 +139,18 @@ header section {
     color: #999999;
 }
 
-.card .card-content a {
+.card .card-content a{
     background-color: #a2c0be;
     color: white;
     text-decoration: none;
     padding: 12px 32px;
     border-radius: 50px;
-    transition: color 350ms;
+    transition : color 350 ms;
+    
 }
 
 .card .card-content a:hover {
-    background-color: black;
+    background-color: #4a4a4b;
     transition: color 350ms;
 }
 
