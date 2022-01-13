@@ -34,3 +34,38 @@ body {
     text-decoration: none;
     color: #999999;
 }
+
+header {
+    background-color: #f8f9fa
+}
+
+
+/*titrte slogan image du chien */
+header section {
+   display: flex;
+   justify-content: space-between;/* centrage horizontal ne foncytionne qu'avec flexbox*/
+   width: 60%;
+   margin: auto;
+   align-items: center; /*centrage vertical avec flex box*/
+
+}
+
+
+/*largeur de l'image contenu dans le header */
+.headerDog {
+    width : 35%;
+}
+
+.headerTitle h1 {
+    font-size: 4rem;
+    margin: 0; /*suppression des marges auto sur la balise heading*/
+    font-weight: lighter;
+
+}
+
+.headerTitle p {
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: lighter;
+    color:#999999;
+}
