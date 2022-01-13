@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
+:root {/* une variable doit toujours comentcer par 2 tirets --*/
+    --white : white;
+    --black: black;
+    --orange: orange;
+    --grey: #999999;
+    --grey-light: #f8f9fa;
+    --grey-dark: #4a4a4b;
+    --green: #a2c0be;
+
+
+}
 body {
     font-family: 'open sans', 'sans serif';
     font-size: 16px;
@@ -16,11 +27,11 @@ body {
 .logo {
     font-size: 2rem;
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
 
 .logo span {
-    color: orange;
+    color: var(--orange);
 }
 
 #menu nav ul {
@@ -33,10 +44,16 @@ body {
 #menu nav ul li a {
     text-decoration: none;
     color: #999999;
+    transition : color 350ms;
+}
+
+#menu nav ul li a:hover {/*changer la couleur au survoole de la souris */
+    color: #4a4a4b ;
+    transition : color 350ms;/* la transistion evite une modification  couleur en douceur */
 }
 
 header {
-    background-color: #f8f9fa
+    background-color: var(--grey-light);
 }
 
 
@@ -67,7 +84,7 @@ header section {
     font-size: 1.3rem;
     margin: 0;
     font-weight: lighter;
-    color:#999999;
+    color:  var(--grey);
 }
 
 /*partie main du site */
@@ -87,7 +104,7 @@ header section {
     margin: 0;
     font-weight: bold;
     margin: 0;
-    color: #999999;
+    color: var(--grey);
 }
 
 
@@ -128,9 +145,17 @@ header section {
     text-decoration: none;
     padding: 12px 32px;
     border-radius: 50px;
+    transition: color 350ms;
 }
+
+.card .card-content a:hover {
+    background-color: black;
+    transition: color 350ms;
+}
+
+
 .card .picture {
-    width: 50%;
+    width: 46%;
     box-shadow: 10px 10px 0 #a2c0be;
 }
 
